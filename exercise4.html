@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .boxz{
+        display: flex;
+        flex-direction: row;
+    }
+    .box1{
+        width:100px;
+        height:100px;
+        background-color: red;
+        margin: 5px 5px 5px 5px;
+    }
+    .box2{
+        width:100px;
+        height:100px;
+        background-color: red;
+        margin: 5px 5px 5px 5px;
+    }
+    .box3{
+        width:100px;
+        height:100px;
+        background-color: red;
+        margin: 5px 5px 5px 5px;
+        }
+    @media screen and (min-width:600px) {
+        .boxz{display: flex; flex-direction: column;}
+    }
+
+</style>
+</head>
+<body>
+    <div class="boxz">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div>
+</body>
+</html>
