@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .boxz{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:100vh ;
+        }
+        #box{
+            height:100px;
+            width:100px;
+            background-color: blue;
+        }
+        @media only screen and (max-width:600px) {
+            .boxz {
+                gap: 10px;
+            }
+        }
+        @media only screen and (max-width:400px) {
+            #box{
+                background-color: yellow;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="boxz">
+        <div id="box"></div> 
+        <div id="box"></div>
+        <div id="box"></div>
+    </div>
+</body>
+</html>
